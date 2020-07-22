@@ -1,0 +1,8 @@
+title: C++教學書
+description: 
+google_analytics: 
+show_downloads: true
+theme: jekyll-theme-architect
+
+gems:
+  - jekyll-mentions
