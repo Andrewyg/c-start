@@ -20,7 +20,28 @@
 - vim 終端原生編輯器
 - gedit Linux GUI版的編輯器
 
-除了VS code以外的兩個我覺得都太硬核了，因為他們不會給除錯的提示，所以就先用vs code吧。
+除了VS code以外的兩個我覺得都太硬核了，因為他們不會給除錯的提示，所以就先用vs code吧。從[這裡](https://code.visualstudio.com/)安裝vscode後用創建一個檔案名為main.cpp（建議存在好找的地方啦，像是桌面或文件）。
+
+```cpp
+#include <iostream>
+```
+
+會引用基礎輸入輸出的模組
+
+```cpp
+using namespace std;
+```
+
+會預設程式使用std
+
+接著我們要把主程式放到`main`裡面
+
+```cpp
+int main() {
+    //程式放這
+    return 0; //這行不用動
+}
+```
 
 ---
 
