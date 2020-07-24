@@ -37,8 +37,12 @@ using namespace std;
 接著我們要把主程式放到`main`裡面
 
 ```cpp
-int main() {
-    //程式放這
+int main()
+{
+    string word; // 宣告變數word
+    cout << "輸入："; //在終端輸出
+    cin >> word; //從終端讀取輸入到變數word
+    cout << "你剛剛輸入：" << word << endl; 
     return 0; //這行不用動
 }
 ```
